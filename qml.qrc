@@ -1,5 +1,16 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>images/zoomIn48dp.png</file>
+        <file>images/zoomOut48dp.png</file>
+        <file>QMLItems/NavPoint.qml</file>
+        <file>images/marker.png</file>
+        <file>QMLItems/NavPathPolyLine.qml</file>
+        <file>QMLItems/NavPointUpdateDialog.qml</file>
+        <file>images/heading.png</file>
+        <file>QMLItems/NavPathArc.qml</file>
+        <file>QMLItems/DubinHelper.js</file>
+        <file>QMLItems/StaticPoint.qml</file>
+        <file>qtquickcontrols2.conf</file>
     </qresource>
 </RCC>

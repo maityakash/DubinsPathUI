@@ -1,4 +1,4 @@
-QT += quick
+QT += quick widgets qml positioning location
 
 CONFIG += c++11
 
@@ -28,3 +28,8 @@ QML_DESIGNER_IMPORT_PATH =
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+HEADERS += \
+    fsavenavpoint.h
+
+DISTFILES +=

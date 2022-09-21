@@ -38,6 +38,7 @@ target_wrapper.*
 # QtCreator Qml
 *.qmlproject.user
 *.qmlproject.user.*
+*qmlcache*
 
 # QtCreator CMake
 CMakeLists.txt.user*
@@ -47,3 +48,6 @@ compile_commands.json
 
 # QtCreator local machine specific files for imported projects
 *creator.user*
+
+#Executables
+*.exe
